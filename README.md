@@ -1,6 +1,6 @@
 # Direct File Transfer
 
-A Client and Server that allow you to upload and download files directly from a computer to another just by using a code.
+A Client and Server that allows you to upload and download files directly from a computer to another just by using a code.
 
 Connections between Client and Server are encrypted with TLS
 

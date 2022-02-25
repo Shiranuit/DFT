@@ -2,9 +2,9 @@
   "name": "dft",
   "version": "1.0.0",
   "description": "Direct File Transfer",
-  "main": "index.js",
+  "main": "lib/dft.js",
   "bin": {
-    "dft": "lib/client.js"
+    "dft": "lib/dft.js"
   },
   "scripts": {
     "host": "node lib/server.js",

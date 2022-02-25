@@ -1,10 +1,10 @@
 {
-  "name": "dft",
+  "name": "sdft",
   "version": "1.0.0",
   "description": "Direct File Transfer",
   "main": "lib/dft.js",
   "bin": {
-    "dft": "lib/dft.js"
+    "sdft": "lib/dft.js"
   },
   "scripts": {
     "host": "node lib/server.js",

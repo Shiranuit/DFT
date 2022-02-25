@@ -1,10 +1,10 @@
 {
-  "name": "sdft",
+  "name": "@shiranuit/dft",
   "version": "1.0.0",
   "description": "Direct File Transfer",
   "main": "lib/dft.js",
   "bin": {
-    "sdft": "lib/dft.js"
+    "dft": "lib/dft.js"
   },
   "scripts": {
     "host": "node lib/server.js",

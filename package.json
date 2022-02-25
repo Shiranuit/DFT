@@ -4,11 +4,11 @@
   "description": "Direct File Transfer",
   "main": "lib/sdft.js",
   "bin": {
-    "dft": "lib/sdft.js"
+    "sdft": "lib/sdft.js"
   },
   "scripts": {
     "host": "node lib/server.js",
-    "dft": "node lib/client.js"
+    "sdft": "node lib/client.js"
   },
   "repository": {
     "type": "git",

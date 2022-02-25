@@ -1,0 +1,31 @@
+{
+  "name": "dft",
+  "version": "1.0.0",
+  "description": "Direct File Transfer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shiranuit/DFT.git"
+  },
+  "keywords": [
+    "direct",
+    "file",
+    "transfer"
+  ],
+  "author": "Shiranuit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shiranuit/DFT/issues"
+  },
+  "homepage": "https://github.com/Shiranuit/DFT#readme",
+  "dependencies": {
+    "archiver": "^5.3.0",
+    "argparse": "^2.0.1",
+    "decompress-zip": "^0.3.3",
+    "unzipper": "^0.10.11",
+    "uuid": "^8.3.2"
+  }
+}

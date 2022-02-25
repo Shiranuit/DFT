@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "Direct File Transfer",
   "main": "index.js",
+  "bin": {
+    "dft": "lib/client.js"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "host": "node lib/server.js",
+    "dft": "node lib/client.js"
   },
   "repository": {
     "type": "git",

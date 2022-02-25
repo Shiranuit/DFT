@@ -1,7 +1,7 @@
 module.exports = {
   client: {
-    host: 'localhost',
-    port: 9966,
+    host: process.env.DFT_HOST || 'localhost',
+    port: process.env.DFT_PORT || 9966,
   },
   server: {
     port: 9966,

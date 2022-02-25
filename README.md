@@ -8,7 +8,7 @@ The Server does not store any of the transfered data, the server only act as a b
 
 ## Usage
 ```
-usage: dft [-h] [-v] [-u PATH] [-d CODE] [-p PASSWORD]
+usage: sdft [-h] [-v] [-u PATH] [-d CODE] [-p PASSWORD]
 
 Download or Upload file directly to other devices on your local network
 
@@ -27,12 +27,12 @@ optional arguments:
 
 **Upload a file or a folder**
 ```shell
-dft --upload /home/my_folder
+sdft --upload /home/my_folder
 # Your Code: XCFV0
 ```
 
 **Download a file**
 ```shell
-dft --download XCFV0
+sdft --download XCFV0
 # Download completed
 ```

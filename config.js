@@ -1,5 +1,3 @@
-console.log(process.env.DFT_HOST)
-
 module.exports = {
   client: {
     host: process.env.DFT_HOST,

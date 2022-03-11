@@ -1,6 +1,6 @@
 {
   "name": "sdft",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "Direct File Transfer",
   "main": "lib/sdft.js",
   "bin": {
@@ -8,7 +8,7 @@
   },
   "scripts": {
     "host": "node lib/server.js",
-    "sdft": "node lib/client.js"
+    "sdft": "node lib/sdft.js"
   },
   "repository": {
     "type": "git",
@@ -28,7 +28,9 @@
   "dependencies": {
     "archiver": "^5.3.0",
     "argparse": "^2.0.1",
+    "cli-progress": "^3.10.0",
     "decompress-zip": "^0.3.3",
+    "filesize": "^8.0.7",
     "unzipper": "^0.10.11",
     "uuid": "^8.3.2"
   }

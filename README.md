@@ -27,6 +27,13 @@ optional arguments:
                         File password (default: undefined)
 ```
 
+#### Environement Variable
+
+Instead of having to add `--host` and `--port` options everytime,
+you can use the following environment variables:
+- `DFT_HOST` server host
+- `DFT_PORT` server port
+
 ### Server
 
 A server is present in the package

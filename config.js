@@ -1,7 +1,9 @@
+console.log(process.env.DFT_HOST)
+
 module.exports = {
   client: {
-    host: process.env.DFT_HOST || 'localhost',
-    port: process.env.DFT_PORT || 9966,
+    host: process.env.DFT_HOST,
+    port: process.env.DFT_PORT,
   },
   server: {
     port: 9966,
